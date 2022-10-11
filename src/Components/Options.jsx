@@ -28,7 +28,7 @@ const Options = ({ option, correctAnswer }) => {
                 pauseOnFocusLoss
                 draggable
                 pauseOnHover
-                theme="orange" />
+                theme="dark" />
         </div>
     );
 };

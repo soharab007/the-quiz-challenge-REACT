@@ -9,7 +9,9 @@ const Header = () => {
 
     return (
         <div className='flex justify-between px-8 py-3 bg-sky-400 '>
+
             <div className='font-bold text-2xl'>
+
                 <h3>The Quiz Challenge</h3>
             </div>
             <div>

@@ -9,39 +9,39 @@ import Main from './Layout/Main';
 
 const router = createBrowserRouter([
   {
-    path:'/',
+    path: '/',
     element: <Main></Main>,
     children: [
       {
-        path:'/',
+        path: '/',
         loader: async () => {
           return fetch('https://openapi.programming-hero.com/api/quiz')
         },
         element: <Home></Home>,
       },
       {
-        path:'/home',
+        path: '/home',
         loader: async () => {
           return fetch('https://openapi.programming-hero.com/api/quiz')
         },
         element: <Home></Home>,
       },
       {
-        path:'/quiz/:id',
-        loader: async({params}) => {
+        path: '/quiz/:id',
+        loader: async ({ params }) => {
           return fetch(`https://openapi.programming-hero.com/api/quiz/${params.id}`)
         },
         element: <Topics></Topics>,
       },
       {
-        path:'/statistics',
+        path: '/statistics',
         loader: async () => {
           return fetch('https://openapi.programming-hero.com/api/quiz')
         },
         element: <Statistics></Statistics>,
       },
       {
-        path:'/blog',
+        path: '/blog',
         element: <Blog></Blog>,
       },
       {
