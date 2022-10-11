@@ -9,8 +9,8 @@ const Header = () => {
 
     return (
         <div className='flex justify-between px-8 py-3 bg-sky-400 '>
-            <div className='font-bold text-3xl'>
-                <h3>Motion Quiz</h3>
+            <div className='font-bold text-2xl'>
+                <h3>The Quiz Challenge</h3>
             </div>
             <div>
                 <div className="h-6 w-6 md:hidden" onClick={() => setOpen(!open)}>
@@ -20,13 +20,13 @@ const Header = () => {
                 </div>
                 <div className={`bg-sky-400 md:flex w-full justify-end absolute md:static ${open ? 'top-12 right-0 py-2' : 'top-[-120px] right-0'}`}>
                     <div className='px-3 font-bold mb-2'>
-                        <NavLink to='/home' className={({isActive}) => isActive ? 'active' : undefined} >Home</NavLink>
+                        <NavLink to='/home' className={({ isActive }) => isActive ? 'active' : undefined} >Home</NavLink>
                     </div>
                     <div className='px-3 font-bold mb-2'>
-                        <NavLink to='/statistics' className={({isActive}) => isActive ? 'active' : undefined}>Statistics</NavLink>
+                        <NavLink to='/statistics' className={({ isActive }) => isActive ? 'active' : undefined}>Statistics</NavLink>
                     </div>
                     <div className='px-3 font-bold'>
-                        <NavLink to='/blog' className={({isActive}) => isActive ? 'active' : undefined}>Blog</NavLink>
+                        <NavLink to='/blog' className={({ isActive }) => isActive ? 'active' : undefined}>Blog</NavLink>
                     </div>
                 </div>
             </div>
