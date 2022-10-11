@@ -71,7 +71,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 project name is motion quiz
 
-live site: https://gorgeous-druid-620205.netlify.app/home
+<!-- live site: https://gorgeous-druid-620205.netlify.app/home -->
 
 on doing this I learn more about the application of react router and get rid of the fear of using tailwind. at first i want to use react-bootstrap but on this way i can't use route to my react file.
 
