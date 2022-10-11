@@ -69,9 +69,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-project name is motion quiz
+The project name is "The Quiz Challenge".
 
-<!-- live site: https://gorgeous-druid-620205.netlify.app/home -->
+<!-- live site:  -->
+<!--  -->
 
 on doing this I learn more about the application of react router and get rid of the fear of using tailwind. at first i want to use react-bootstrap but on this way i can't use route to my react file.
 
