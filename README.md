@@ -69,13 +69,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+
+
+
 The project name is "The Quiz Challenge".
 
 <!-- live site:  -->
 <!--  -->
 
-on doing this I learn more about the application of react router and get rid of the fear of using tailwind. at first i want to use react-bootstrap but on this way i can't use route to my react file.
+Before doing this I learn more about the application of react router and get rid of the fear of using tailwind. At first, I want to use react-bootstrap but on this way I can't use react-bootstrap easily to the React project.
 
-so i choose tailwind for the projects. by this assiognment some of important leakings noticed by me. I face problem on github private repo.
-
-know i am going to revise the milestone-9 again. because it is so important for us and this module helps me to explore more advanced section of web development.
+FOr this reason, I choose tailwind for the projects with row css. by this assiognment some of important leakings noticed by me.
+The milestone-9 is very important for me and this module helps me to explore more advanced section of web development.
+                            
+                                    ---Thanks a lot
