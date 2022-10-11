@@ -6,7 +6,7 @@ const NotFound = () => (
   <div className='text-center m-8'>
     <FaceFrownIcon className='w-1/2 mx-auto text-gray-500'></FaceFrownIcon>
     <h1 className='text-5xl mb-12'>Oops! 404 - Not Found!</h1>
-    <Link to="/" className='text-2xl text-green-600 font-bold'><u>Go Home</u></Link>
+    <Link to="/" className='text-2xl text-blue-600 font-bold'><u>Go Home</u></Link>
   </div>
 );
 

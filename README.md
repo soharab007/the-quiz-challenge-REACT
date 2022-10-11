@@ -71,15 +71,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
+<!-- About The Project: -->
 
 The project name is "The Quiz Challenge".
-
-<!-- live site:  -->
-<!--  -->
 
 Before doing this I learn more about the application of react router and get rid of the fear of using tailwind. At first, I want to use react-bootstrap but on this way I can't use react-bootstrap easily to the React project.
 
 FOr this reason, I choose tailwind for the projects with row css. by this assiognment some of important leakings noticed by me.
-The milestone-9 is very important for me and this module helps me to explore more advanced section of web development.
-                            
+The milestone-9 is very important for me and this module helps me to explore more advanced section of web developme.
+
+Live website link: https://vermillion-dasik-59329a.netlify.app/home
+
+
                                     ---Thanks a lot
