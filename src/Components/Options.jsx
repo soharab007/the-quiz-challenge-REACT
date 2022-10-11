@@ -5,30 +5,30 @@ import 'react-toastify/dist/ReactToastify.css';
 const Options = ({ option, correctAnswer }) => {
 
     const checkAnswer = (opt) => {
-        if( opt === correctAnswer){
-            toast("Hurray! the answer is right");
+        if (opt === correctAnswer) {
+            toast("WOW!!! the answer is right");
         }
-        else{
-            toast("Oops! wrong answer");
+        else {
+            toast("Oops! The answer is wrong");
         }
     }
 
     return (
         <div>
-            <button onClick={() => {checkAnswer(option)}} className='bg-white w-3/4 mt-4 mb-2 gap-2 p-2 rounded'>
+            <button onClick={() => { checkAnswer(option) }} className='bg-white w-3/4 mt-4 mb-2 gap-2 p-2 rounded'>
                 <input type='radio' name='foo' /> {option}
             </button>
-            <ToastContainer 
-            position="top-center"
-            autoClose={1000}
-            hideProgressBar={false}
-            newestOnTop={false}
-            closeOnClick
-            rtl={false}
-            pauseOnFocusLoss
-            draggable
-            pauseOnHover
-            theme="dark"/>
+            <ToastContainer
+                position="top-center"
+                autoClose={1000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="orange" />
         </div>
     );
 };
